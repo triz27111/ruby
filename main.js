@@ -19,6 +19,7 @@ function criarMenu(categoria) {
 
     novaImagem.src = `./img/${categoria.icon}`
     novoSpan.textContent = categoria.nome
+    
 
     novoItem.appendChild(novaImagem)
     novoItem.appendChild(novoSpan)
@@ -34,17 +35,22 @@ const produtos = [
     {
         nome: "Gloss Labial",
         descricao: "O Gloss Labial da Ruby Rose proporciona brilho intenso e hidratação, deixando os lábios macios e irresistíveis.",
-        preco: "23,20",
+        preco: "R$14,25",
+        parcelas:"ou em até 6x de R$ 2,50 no cartão",
         imagem: "./img/img_1 (2).png"
     },
     {
         nome: "Bronzer Sunkiss",
         descricao: "O bronzer da Ruby Rose oferece um efeito bronzeado natural e fácil aplicação.",
+        preco: "17,55",
+        parcelas: "ou em até 6x de R$ 3,08 no cartão",
         imagem: "./img/img_1 (3).png"
     },
     {
         nome: "Contorno Smooth Contour",
         descricao: "O contorno da Ruby Rose realça os traços com acabamento natural e fácil aplicação.",
+        preco: "14,56",
+        parcelas: "À vista com 5% de desconto no PIX",
         imagem: "./img/img_1 (4).png"
     }
 
@@ -66,6 +72,8 @@ function criarCards() {
                     <div class="descricao">
                         <p>${produto.descricao}</p>
                     </div>
+                      <h3>${produto.preco}</h3>
+                      <p>${produto.parcelas}</p>
                 </figcaption>
                 <button class="compra">COMPRAR</button>
             </figure>
