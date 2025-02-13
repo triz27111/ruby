@@ -42,14 +42,14 @@ const produtos = [
     {
         nome: "Bronzer Sunkiss",
         descricao: "O bronzer da Ruby Rose oferece um efeito bronzeado natural e fácil aplicação.",
-        preco: "17,55",
+        preco: "R$17,55",
         parcelas: "ou em até 6x de R$ 3,08 no cartão",
         imagem: "./img/img_1 (3).png"
     },
     {
         nome: "Contorno Smooth Contour",
         descricao: "O contorno da Ruby Rose realça os traços com acabamento natural e fácil aplicação.",
-        preco: "14,56",
+        preco: "R$14,56",
         parcelas: "À vista com 5% de desconto no PIX",
         imagem: "./img/img_1 (4).png"
     }
