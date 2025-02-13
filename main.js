@@ -50,7 +50,7 @@ const produtos = [
         nome: "Contorno Smooth Contour",
         descricao: "O contorno da Ruby Rose realça os traços com acabamento natural e fácil aplicação.",
         preco: "R$14,56",
-        parcelas: "À vista com 5% de desconto no PIX",
+        parcelas: "ou em até 6x de R$ 2,56 no cartão",
         imagem: "./img/img_1 (4).png"
     }
 
