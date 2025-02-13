@@ -79,6 +79,11 @@ main{
     text-align: center;
     display: inline-block;
 }
+.card h2{
+    text-align: center;
+    color: #f58db8;
+    margin-top:  10px;
+}
 
 .card1 h2{
     text-align: center;
